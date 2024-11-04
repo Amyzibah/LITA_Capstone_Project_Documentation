@@ -46,8 +46,20 @@ Two Datasets was used for this Project:
      This contains customer demographics and subscription details, such as start and end dates, subscription type, and cancellation status.
 
 ## Analysis and Key Findings
+1. #### Top-Selling Products:
+    The product with the highest total sales was identified, providing insight into which items contibute the most revenue.
+2. #### Regional Sales Distribution:
+    The analysis showed which regions contibute the most to overall sales, helping the business prioritize market strategies.
+3. #### Customer Segmentation:
+    A pie chart was used in PowerBi to visualize the distribution of customers across different subscription types(Basic, Premium, Standard), identifying the most popular types among the 
+    customer base and I also used a stacked bar chart in showing revenue contributions across regions and subscriptions types, highlighting high-value segments.
+ 4. ####  Subscription Trends:
+     A line Chart was used in tracking the number of new subscriptions each month, helping to identify peak periods and growth trend. I also did analysis of average subscription duration for 
+     each subscription type to understand customer longevity, visualized in a bar chart.
+5. #### Customer Cancellations:
+    A bar chart was used to illustrate which regions had higher cancellation rates, helping target retention efforts by rates. It also explored where and why customers cancel subscriptions.
 
-
-
-
+## Excel Analysis
+In Excel, the dataset was first cleaned,and pivot tables were created to summarize total sales by region and product. I also did Basic calculations such as average sales per product and total revenue by region. You can view the Excel analysis [here](./Excel/LITA Capstone Dataset 2)  
+    
    
