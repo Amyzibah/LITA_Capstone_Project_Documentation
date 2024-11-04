@@ -39,7 +39,6 @@ This project focuses on analysing the sales performance of a retail store to gai
        For creating a dashboard to present the results in a visual and interactive way.
 
 ## Dataset Used
-Two Datasets was used for this Project:
 1. #### Sales Data:
      which contains details on sales transactions, which includes order dates, products, quantites, unit prices, and regions.
 2. #### Customer Data:
@@ -60,6 +59,6 @@ Two Datasets was used for this Project:
     A bar chart was used to illustrate which regions had higher cancellation rates, helping target retention efforts by rates. It also explored where and why customers cancel subscriptions.
 
 ## Excel Analysis
-In Excel, the dataset was first cleaned,and pivot tables were created to summarize total sales by region and product. I also did Basic calculations such as average sales per product and total revenue by region. You can view the Excel analysis [here](/Excel/LITACapstoneDataset2.xlsx).  
+In Excel, the dataset was first cleaned,and pivot tables were created to summarize total sales by region and product. I also did Basic calculations such as average sales per product and total revenue by region. You can view the Excel analysis here [LITA Capstone Dataset](/Excel/LITACapstoneDataset2.xlsx).  
     
    
