@@ -11,13 +11,13 @@ This is where I documented my Capstone project while learning Data Analysis with
 
 - [Analysis and Key Findings](#Analysis-and-Key-Findings)
 
-- [Excel Analysis](Excel-Analysis)
+- [Excel Analysis](#Excel-Analysis)
 
-- [SQL Queries Used](SQL-Queries-Used)
+- [SQL Queries Used](#SQL-Queries-Used)
 
-- [PowerBi Dashboard](PowerBi-Dashboard)
+- [PowerBi Dashboard](#PowerBi-Dashboard)
 
-- [Conclusion](Con-clusion)
+- [Conclusion](#Con-clusion)
 
 ## Project Overview
 This project focuses on analysing the sales performance of a retail store to gain useful insights into product performance,customer behaviour, and regional sales distribution. The analysis was executed using [Excel](Excel) for initial data exploration or research, [SQL](SQL) for structured querying, and [PowerBi](PowerBi) for visualizing the results in an interactive dashboard.
