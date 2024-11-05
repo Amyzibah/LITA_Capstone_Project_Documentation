@@ -59,6 +59,22 @@ This project focuses on analysing the sales performance of a retail store to gai
     A bar chart was used to illustrate which regions had higher cancellation rates, helping target retention efforts by rates. It also explored where and why customers cancel subscriptions.
 
 ## Excel Analysis
-In Excel, the dataset was first cleaned,and pivot tables were created to summarize total sales by region and product. I also did Basic calculations such as average sales per product and total revenue by region. You can view the Excel analysis here [LITA Capstone dataset Excel file](Excel/LITACapstoneDataset2.xlsx).  
+In Excel, the dataset was first cleaned,and pivot tables were created to summarize total sales by region and product. I also did Basic calculations such as average sales per product and total revenue by region. Below is also a preview of one of the pivot tables showing the sales data:
+!You can view the Excel analysis here [LITA Capstone dataset Excel file](Excel/LITACapstoneDataset2.xlsx).  
     
-   
+## SQL Queries Used
+SQL was used to extract key insights from dataset,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
