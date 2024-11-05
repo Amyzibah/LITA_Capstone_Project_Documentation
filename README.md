@@ -61,10 +61,36 @@ This project focuses on analysing the sales performance of a retail store to gai
 ## Excel Analysis
 In Excel, the dataset was first cleaned,and pivot tables were created to summarize total sales by region and product. I also did Basic calculations such as average sales per product and total revenue by region. Below is also a preview of one of the pivot tables showing the sales data:
 ![Excel pivot table for analysis](Excel/Salesdata1.png)
+This also a preview of one of the pivot tables showing the customer data:
+![Excel pivot table for analysis](Excel/CustomerData1.png)
 You can also view the full Excel analysis here [LITA Capstone dataset Excel file](Excel/LITACapstoneDataset2.xlsx). click on view raw once you open it.  
     
 ## SQL Queries Used
-SQL was used to extract key insights from dataset,
+SQL was used to extract key insights from dataset, including sales performance, customer behavior, subscription patterns and regional analysis. Below are the key SQL queries used in the analysis:
+### 1. Retrieve Total Sales by Product
+'''sql
+SELECT
+     Product,
+     SUM(Quantity * UnitPrice) AS
+total_sales
+FROM
+    SalesData
+GROUP BY
+    Product
+ORDER BY
+    total_sales DESC;
+This query calculates the total number of sales by product.
+### 2. Retrieve the total number of customers from each region
+'''sql
+SELECT
+     Region,
+     COUNT(CustomerID) AS
+total_customers
+FROM
+   CustomerData
+GROUP BY
+    Region;
+This query calculates the total number of customer from each region. You can find the full set of SQL queries used in this analysis in the [SQL Queries Directory](SQL/)
 
 
 
