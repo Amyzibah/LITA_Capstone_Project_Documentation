@@ -162,9 +162,9 @@ The insights from the analysis are visualized using a PowerBi. The following are
 ![PowerBi report for visualization](PowerBi/KeyCustomersegmentandSubscriptioncancellationandTrends.png)
 
 #### This visuals reveals the total number of customers and their subscription types, shows the subscription patterns which includes the start and end dates, cancellations and monthly trend. Also included in it are slicers for interactive analysis.
-#### you can download the full PowerBi Sales Data report here [PowerBi visuals for Analysis](PowerBi/Capstoneproject(SalesData).pbix)
+#### you can download the full PowerBi Sales Data report here [PowerBi visuals for Analysis](PowerBi/Capstoneproject(SalesData).pbix) click on view raw once you open it.
 AND
-#### you can download the full PowerBi Customer Data report here [PowerBi visuals for Analysis](PowerBi/PowerBiCapstoneCustomerData.pbix)
+#### you can download the full PowerBi Customer Data report here [PowerBi visuals for Analysis](PowerBi/PowerBiCapstoneCustomerData.pbix)  click on view raw once you open it.
 
 
 ## Conclusion
