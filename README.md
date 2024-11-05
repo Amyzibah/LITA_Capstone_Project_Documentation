@@ -43,6 +43,30 @@ This project focuses on analysing the sales performance of a retail store to gai
      which contains details on sales transactions, which includes order dates, products, quantites, unit prices, and regions.
 2. #### Customer Data:
      This contains customer demographics and subscription details, such as start and end dates, subscription type, and cancellation status.
+### SalesData Table:
+
+| Column Name | Description |
+|-------------|-------------|
+| **OrderID** | Unique identifier for each sales transaction. |
+| **CustomerId** | Customer’s unique identifier. |
+| **Product** | The product sold in each transaction. |
+| **Region** | The region where the sale occurred. |
+| **OrderDate** | Date the order was placed. |
+| **Quantity** | Number of units sold in the transaction. |
+| **UnitPrice** | Price of each unit sold. |
+
+### CustomerData Table
+
+| Column Name | Description |
+|-------------|-------------|
+| **CustomerID** | Unique identifier for each customer. |
+| **CustomerName** | Name of the customer. |
+| **Region** | Customer’s region. |
+| **SubscriptionType** | Type of subscription purchased (e.g., Basic, Premium). |
+| **SubscriptionStart** | Start date of the subscription. |
+| **SubscriptionEnd** | End date of the subscription. |
+| **Canceled** | Whether the subscription was canceled (True/False). |
+| **Revenue** | Revenue generated from each customer. |
 
 ## Analysis and Key Findings
 1. #### Top-Selling Products:
@@ -68,7 +92,7 @@ You can also view the full Excel analysis here [LITA Capstone dataset Excel file
 ## SQL Queries Used
 SQL was used to extract key insights from dataset, including sales performance, customer behavior, subscription patterns and regional analysis. Below are the key SQL queries used in the analysis:
 ### 1. Retrieve Total Sales by Product
-'''sql
+```sql
 SELECT
      Product,
      SUM(Quantity * UnitPrice) AS
@@ -78,10 +102,11 @@ FROM
 GROUP BY
     Product
 ORDER BY
-    total_sales DESC;
+    total_sales DESC ;
+```
 This query calculates the total number of sales by product.
 ### 2. Retrieve the total number of customers from each region
-'''sql
+```sql
 SELECT
      Region,
      COUNT(CustomerID) AS
@@ -90,9 +115,11 @@ FROM
    CustomerData
 GROUP BY
     Region;
+```
 This query calculates the total number of customer from each region. You can find the full set of SQL queries used in this analysis in the [SQL Queries Directory](SQL/)
 
-
+## PowerBi Dashboard
+The insights from the analysis are visualized
 
 
 
