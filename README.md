@@ -11,6 +11,8 @@ This is where I documented my Capstone project while learning Data Analysis with
 
 - [Analysis and Key Findings](#Analysis-and-Key-Findings)
 
+- [Insights and Recommendations](#Insights-and-Recommendations)
+
 - [Excel Analysis](#Excel-Analysis)
 
 - [SQL Queries Used](#SQL-Queries-Used)
@@ -82,6 +84,24 @@ This project focuses on analysing the sales performance of a retail store to gai
 5. #### Customer Cancellations:
     A bar chart was used to illustrate which regions had higher cancellation rates, helping target retention efforts by rates. It also explored where and why customers cancel subscriptions.
 
+## Insights and Recommendations
+### Key Insights:
+
+1. #### Top Products:
+      Certain products stand out in terms of sales volume, driving most of the revenue. These products have high demand across multiple regions.
+2. #### Regional Performance:
+      Regions like [South] show strong sales, while others, such as [West], shows low sales, so indicating potential growth areas.
+3. #### Customer Value:
+      Basic subscribers generate a higher overall revenue, compared to premium or other subscription types, and high-value customers tend to have longer, more stable subscription periods.
+
+### Business Recommendations:
+1. #### Boost Sales in Low-Performing Regions:
+      Focus marketing and sales efforts on low-performing regions to capture new markets and grow revenue.
+2. #### Promote Basic Subscriptions:
+      Encourage basic subscribers by adding features specifically for this group, as Basic subscribers generate higher revenue.
+3. #### Retain High-Value Customers:
+      Implement loyalty programs or personalized discounts to maintain valuable customers, thereby encouraging them to stay subscribed and so reducing cancellation rates.
+
 ## Excel Analysis
 In Excel, the dataset was first cleaned,and pivot tables were created to summarize total sales by region and product. I also did Basic calculations such as average sales per product and total revenue by region. Below is also a preview of one of the pivot tables showing the sales data:
 
@@ -126,15 +146,29 @@ This query calculates the total number of customer from each region. You can fin
 The insights from the analysis are visualized using a PowerBi. The following are previews of the interactive PowerBi Dashboard I created for this analysis:
 
 ### 1. Sales Overview And Top-performing Products
-![PowerBi report for visualization](SalesOverviewandTopperformingProducts.png)
+
+![PowerBi report for visualization](PowerBi/SalesOverviewandTopperformingProducts.png)
+
+#### This visual shows the total sales distribution by product, customer and region, revealing the top-performing regions, top 5 customers and a breakdown of the products that is generating the highest revenue.
+
+### 2. Regional Sales Breakdown:
+
+![PowerBi report for visualization](PowerBi/RegionalSalesBreakdown.png)
+
+#### Different visuals were used in displaying sales across different regions and unit price, indicating which region contribute the most to total revenue.
+
+### 3. Key Customer Segment And Subscription Cancellation/trends:
+
+![PowerBi report for visualization](PowerBi/KeyCustomersegmentandSubscriptioncancellationandTrends.png)
+
+#### This visuals reveals the total number of customers and their subscription types, shows the subscription patterns which includes the start and end dates, cancellations and monthly trend. Also included in it are slicers for interactive analysis.
+#### you can download the full PowerBi Sales Data report here [PowerBi visuals for Analysis](PowerBi/Capstoneproject(SalesData).pbix)
+AND
+#### you can download the full PowerBi Customer Data report here [PowerBi visuals for Analysis](PowerBi/PowerBiCapstoneCustomerData.pbix)
 
 
-
-
-
-
-
-
+## Conclusion
+Through this analysis I was able to identify key drivers of revenue, such as the top-selling products and regions with highest sales. Additionally, I discovered customer behavior which provided me with valuable information for customer retention and subscription management strategies.
 
 
 
